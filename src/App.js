@@ -8,6 +8,7 @@ import Form from './components/Form'
 import Team from './components/Team'
 
 import './App.css'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import Faculty from './components/Faculty'
 
 const App = () => (

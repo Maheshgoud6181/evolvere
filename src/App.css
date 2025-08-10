@@ -958,7 +958,6 @@
             resize: vertical;
         }
 
-        /* === Footer === */
         footer {
             background-color: var(--charcoal);
             color: white;
@@ -1008,12 +1007,26 @@
             opacity: 0.8;
             text-decoration: none;
             transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
         }
 
         .footer-links a:hover {
             opacity: 1;
             color: var(--coral);
             padding-left: 5px;
+        }
+
+        .footer-links a i {
+            margin-right: 10px;
+            font-size: 1.1rem;
+            width: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .footer-links a:hover i {
+            transform: scale(1.1);
         }
 
         .social-links {
@@ -1048,6 +1061,26 @@
         .footer-bottom p {
             opacity: 0.7;
             font-size: 0.9rem;
+        }
+
+        /* Demo content to show footer at bottom */
+        .demo-content {
+            padding: 40px 20px;
+            text-align: center;
+            color: #666;
+        }
+
+        .demo-content h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        .demo-content p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
         }
 
         /* === Animations === */
