@@ -744,7 +744,10 @@ nav.scrolled {
 }
 
 .member-info {
-    padding: 1.5rem;
+    padding: 12px;
+}
+.membername{
+    font-size: 20px;
 }
 
 .member-info h3 {

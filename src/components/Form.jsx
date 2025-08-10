@@ -16,7 +16,7 @@ const Form = () => {
                                 </div>
                                 <div className="contact-details">
                                     <h3>Location</h3>
-                                    <p>Science Building, Room 205<br />University Campus</p>
+                                    <p>NIT Durgapur<br />BioTechnology Department</p>
                                 </div>
                             </div>
                             <div className="contact-card">
@@ -25,7 +25,7 @@ const Form = () => {
                                 </div>
                                 <div className="contact-details">
                                     <h3>Email</h3>
-                                    <a href="mailto:bioinnovators@university.edu">bioinnovators@university.edu</a>
+                                    <a href="mailto:bioinnovators@university.edu">evolvere@nitdgp.ac.in</a>
                                 </div>
                             </div>
                             <div className="contact-card">
@@ -34,7 +34,7 @@ const Form = () => {
                                 </div>
                                 <div className="contact-details">
                                     <h3>Phone</h3>
-                                    <a href="tel:+11234567890">(123) 456-7890</a>
+                                    <a href="tel:+11234567890">(+91) 9390936181</a>
                                 </div>
                             </div>
                             <div className="contact-card">

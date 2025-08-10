@@ -25,7 +25,7 @@ const Team = () => {
                 </div>
             </div>
             <div className="member-info">
-                <h3>{member.name}</h3>
+                <h3 className='membername'>{member.name}</h3>
                 <span className="member-role">{member.role}</span>
             </div>
         </div>
@@ -38,6 +38,12 @@ const Team = () => {
                 
                 {/* Year Tabs */}
                 <div className="year-tabs">
+                    <button 
+                        className={`tab-button ${activeTab === '5th' ? 'active' : ''}`} 
+                        onClick={() => showYear('5th')}
+                    >
+                        Alumini
+                    </button>
                     <button 
                         className={`tab-button ${activeTab === '4th' ? 'active' : ''}`} 
                         onClick={() => showYear('4th')}
