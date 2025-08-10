@@ -670,6 +670,10 @@ nav.scrolled {
     gap: 2rem;
     position: relative;
     z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .team-member {
@@ -679,6 +683,9 @@ nav.scrolled {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
     text-align: center;
+    height: 350px;
+    width: 250px;
+    
 }
 
 .team-member:hover {
@@ -1283,6 +1290,19 @@ footer {
                 flex-direction: column;
             }
         }
+
+        
+.team-member {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    text-align: center;
+    height: 300px;
+    width: 250px;
+    
+}
         
 @media (max-width: 768px) {
   .department {
