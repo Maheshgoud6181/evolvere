@@ -240,10 +240,13 @@
         /* === Hero Section === */
         .hero {
             height: 100vh;
+            width: 100%;
             display: flex;
+            flex-direction: row;
             align-items: center;
-            position: relative;
-            overflow: hidden;
+            justify-content: center;
+            justify-content: space-around;
+            
         }
 
         .hero::before {
@@ -255,13 +258,19 @@
             height: 100%;
             background: linear-gradient(135deg, rgba(237, 246, 249, 0.9) 0%, rgba(131, 197, 190, 0.2) 100%);
             z-index: -1;
+            
         }
+        .department {
+          width: 800px; 
+          height: 600px;}
 
         .hero-content {
+            
             max-width: 600px;
             position: relative;
             z-index: 2;
             animation: fadeInUp 2s ease-out;
+            
         }
 
         .hero h1 {
@@ -615,6 +624,7 @@
         .team-member {
             background-color: white;
             border-radius: 15px;
+            height: 250px;
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
             transition: all 0.3s ease;
@@ -1160,3 +1170,12 @@
                 flex-direction: column;
             }
         }
+        
+@media (max-width: 768px) {
+  .department {
+    display: none;       /* Image stays as an image */
+           /* Keep aspect ratio */
+  }
+
+
+}

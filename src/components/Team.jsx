@@ -17,11 +17,7 @@ const Team = () => {
                                     <a href="/"><i className="fab fa-twitter"></i></a>
                                 </div>
                             </div>
-                            <div className="member-info">
-                                <h3>Sarah Johnson</h3>
-                                <span class="member-role">President</span>
-                                <p className="member-bio">Senior majoring in Molecular Biology with a passion for genetic engineering research.</p>
-                            </div>
+                           
                         </div>
                         <div className="team-member">
                             <div className="member-image">
