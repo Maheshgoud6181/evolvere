@@ -6,6 +6,7 @@ return (
     <>
      <section className="about" id="about">
         <div className="container">
+
             <h2>About Our Club</h2>
             <div className="about-content">
                 <div className="about-text">
@@ -46,20 +47,20 @@ return (
                     <h3>Research Projects</h3>
                     <p>Collaborate on cutting-edge biotech research with faculty guidance. Current projects include CRISPR applications and synthetic biology.</p>
                 </div>
-                <div className="service-card">
+                {/* <div className="service-card">
                     <div className="service-icon">
                         <i className="fas fa-chalkboard-teacher"></i>
                     </div>
                     <h3>Workshops & Seminars</h3>
                     <p>Evolvere hosts academic and industry events, including webinars and career sessions, to keep students updated and guide them through diverse Biotech-related career paths.</p>
-                </div>
-                <div className="service-card">
+                </div> */}
+                {/* <div className="service-card">
                     <div className="service-icon">
                         <i className="fas fa-briefcase"></i>
                     </div>
                     <h3>Industry Connections</h3>
                     <p>Connect with biotech companies through our networking events, internships, and site visits.</p>
-                </div>
+                </div> */}
                 <div className="service-card">
                     <div className="service-icon">
                         <i className="fas fa-users"></i>
@@ -67,13 +68,13 @@ return (
                     <h3>Community Outreach</h3>
                     <p>Evolvere organizes cultural events like SnapIt and departmental functions including Teachers’ Day and farewells, fostering inclusivity and inter-batch bonding in the department.</p>
                 </div>
-                <div className="service-card">
+                {/* <div className="service-card">
                     <div className="service-icon">
                         <i className="fas fa-trophy"></i>
                     </div>
                     <h3>Competitions</h3>
                     <p>Compete in national and international biotech competitions like iGEM and BioMOD.</p>
-                </div>
+                </div> */}
                 <div className="service-card">
                     <div className="service-icon">
                         <i className="fas fa-graduation-cap"></i>

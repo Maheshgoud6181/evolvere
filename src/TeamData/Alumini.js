@@ -1,63 +1,164 @@
-// src/teamData/2026.js
+import saranya from '../images/saranya.jpg';
+import abhishek from '../images/abhishek.jpg';
+import hiya from '../images/hiya.jpg';
+import susmit from '../images/susmit.jpg';
+import sagnik from '../images/sagnik.jpg';
+import debarpan from '../images/debarpan.jpg';
+import aniruddha from '../images/aniruddha.jpg';
+
+
+
+// import bishal from '../images/team/bishal.jpg';
+// import shouro from '../images/team/shouro.jpg';
+// import sudarshan from '../images/team/sudarshan.jpg';
+// import sanjukta from '../images/team/sanjukta.jpg';
+// import nikhil from '../images/team/nikhil.jpg';
+// import subhajeet from '../images/team/subhajeet.jpg';
+
+
+
 export const Alumini = [
   {
-    id: 4,
-    name: "Hiya Adisani",
+    id: 31,
+    name: "Hiya Aidasani",
     role: "President",
-
-    image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image:hiya,
     social: {
-      linkedin: "https://linkedin.com/in/davidkim",
-      email: "david.kim@university.edu",
-      insta: "https://instagram.com/davidkim"
+      linkedin: "",
+      email: "",
+      insta: ""
     }
   },
   {
-    id: 5,
-    name: "Alex Rodriguez",
+    id: 32,
+    name: "Saranya Mandal",
     role: "Vice President",
-
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    image: saranya,
     social: {
-      linkedin: "https://linkedin.com/in/alexrodriguez",
-      email: "alex.rodriguez@university.edu",
-      insta: "https://instagram.com/alexrodriguez"
+      linkedin: "",
+      email: "",
+      insta: ""
     }
   },
   {
-    id: 6,
-    name: "Emma ",
+    id: 33,
+    name: "Abhishek Kumar",
     role: "General Secretary",
-
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+    image: abhishek,
     social: {
-      linkedin: "https://linkedin.com/in/emmathompson",
-      email: "emma.thompson@university.edu",
-      insta: "https://instagram.com/emmathompson"
+      linkedin: "",
+      email: "",
+      insta: ""
     }
   },
   {
-    id: 16,
-    name: "Emma ",
-    role: "General Secretary",
-
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+    id: 34,
+    name: "Sudarshan Kumar",
+    role: "Creative & Tech Head",
+    image: susmit,
     social: {
-      linkedin: "https://linkedin.com/in/emmathompson",
-      email: "emma.thompson@university.edu",
-      insta: "https://instagram.com/emmathompson"
+      linkedin: "",
+      email: "",
+      insta: ""
     }
   },
   {
-    id: 66,
-    name: "Emma ",
-    role: "General Secretary",
-
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+    id: 35,
+    name: "Bishal Kumar Yadav",
+    role: "Content Head",
+    image: sagnik,
     social: {
-      linkedin: "https://linkedin.com/in/emmathompson",
-      email: "emma.thompson@university.edu",
-      insta: "https://instagram.com/emmathompson"
+      linkedin: "",
+      email: "",
+      insta: ""
+    }
+  },
+  {
+    id: 36,
+    name: "Shouro Aalok",
+    role: "Treasurer & Sponsor",
+    image: "",
+    social: {
+      linkedin: "",
+      email: "",
+      insta: ""
+    }
+  },
+  {
+    id: 37,
+    name: "Susmit Ghosh",
+    role: "Treasurer & Sponsor",
+    image: susmit,
+    social: {
+      linkedin: "",
+      email: "",
+      insta: ""
+    }
+  },
+  {
+    id: 38,
+    name: "Sanjukta Maity",
+    role: "Alumni Outreach",
+    image: "",
+    social: {
+      linkedin: "",
+      email: "",
+      insta: ""
+    }
+  },
+  {
+    id: 39,
+    name: "Aniruddha Dey",
+    role: "Senior Coordinator",
+    image: aniruddha,
+    social: {
+      linkedin: "",
+      email: "",
+      insta: ""
+    }
+  },
+  {
+    id: 40,
+    name: "Nikhil Singh",
+    role: "Senior Coordinator",
+    image: "",
+    social: {
+      linkedin: "",
+      email: "",
+      insta: ""
+    }
+  },
+  {
+    id: 41,
+    name: "Sagnik Kuvali",
+    role: "Senior Coordinator",
+    image: "",
+    social: {
+      linkedin: "",
+      email: "",
+      insta: ""
+    }
+  },
+  {
+    id: 42,
+    name: "Debarpan",
+    role: "Senior Coordinator",
+    image: debarpan,
+    social: {
+      linkedin: "",
+      email: "",
+      insta: ""
+    }
+  },
+  {
+    id: 43,
+    name: "Subhajeet",
+    role: "Senior Coordinator",
+    image: "",
+    social: {
+      linkedin: "",
+      email: "",
+      insta: ""
     }
   }
 ];

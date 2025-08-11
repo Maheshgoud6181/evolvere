@@ -1,3 +1,5 @@
+import logoEvolvere from '../images/logoevolvere.png';
+
 import depart from '../images/depart.png';
 
 const Header = () => {
@@ -5,7 +7,9 @@ const Header = () => {
     return (
         <>
             <nav id="navbar">
-                <a href="/" className="logo"><i className="fas fa-dna"></i>Evo<span>lvere</span></a>
+                <a href="/" className="logo">
+        <img src={logoEvolvere} alt="Evolvere Logo" className='logoevolvere'/>
+    </a>
                 <button className="mobile-menu-btn" id="menuBtn">
                     <i className="fas fa-bars"></i>
                 </button>

@@ -546,7 +546,7 @@ nav.scrolled {
 }
 
 .event-image {
-    height: 200px;
+    height: 300px;
     overflow: hidden;
 }
 
@@ -1321,3 +1321,26 @@ footer {
 
 
 }
+
+
+.logoevolvere {
+    height: 50px;       /* Default height for desktops */
+    width: auto;        /* Keep aspect ratio */
+    max-width: 100%;    /* Prevent overflow */
+    display: block;     /* Removes bottom spacing issues */
+}
+
+@media (max-width: 768px) {
+    .logoevolvere {
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logoevolvere {
+        height: 35px;
+    }
+}
+
+
+
