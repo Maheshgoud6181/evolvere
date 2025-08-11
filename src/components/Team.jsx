@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { teamMembers } from '../TeamData';
 
 const Team = () => {
-    const [activeTab, setActiveTab] = useState('4th');
+    const [activeTab, setActiveTab] = useState('3rd');
 
     const showYear = (year) => {
         setActiveTab(year);

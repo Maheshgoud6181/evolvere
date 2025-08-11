@@ -1,25 +1,87 @@
-// src/teamData/2027.js
+import ashish from '../images/ashish.jpg';
+import debjyoti from '../images/deb.jpg';
+import piyush from '../images/piyus.png';
+import ayushi from '../images/ayushi.jpg';
+import krishnendu from '../images/krishnendu.jpg';
+import thanmai from '../images/sathwika.jpg';
+import shakir from '../images/11.jpg';
+
 export const batch2027 = [
   {
-    id: 7,
-    name: "James Wilson",
-    role: "Senior Coordinator",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    id: 1,
+    name: "Thanmai Sri Sathvika",
+    role: "Event Management",
+    image: thanmai,
     social: {
-      linkedin: "https://linkedin.com/in/jameswilson",
-      email: "james.wilson@university.edu",
-      insta: "https://instagram.com/jameswilson"
+      linkedin: "https://www.linkedin.com/in/sathvika-dasara",
+      email: "sathvikadasara06@gmail.com",
+      insta: ""
     }
   },
   {
-    id: 8,
-    name: "Lisa Zhang",
-    role: "Senior Coordinator",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    id: 2,
+    name: "Shrestha Rana",
+    role: "Treasurer",
+    image: shakir,
     social: {
-      linkedin: "https://linkedin.com/in/lisazhang",
-      email: "lisa.zhang@university.edu",
-      insta: "https://instagram.com/lisazhang"
+      linkedin: "https://www.linkedin.com/in/shakir-shoaib-904278278",
+      email: "shakirshoaibmot@gmail.com",
+      insta: ""
+    }
+  },
+  {
+    id: 3,
+    name: "Krishnendu Mondal",
+    role: "R&D and Content Writing",
+    image: krishnendu,
+    social: {
+      linkedin: "https://www.linkedin.com/in/krishnendu-mondal-4114a8321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      email: "krishnendu2003kolkata@gmail.com",
+      insta: ""
+    }
+  },
+  {
+    id: 4,
+    name: "Ayushi Rajput",
+    role: "R&D",
+    image: ayushi,
+    social: {
+      linkedin: "https://www.linkedin.com/in/ayushi-rajput25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      email: "ar.23bt8028@nitdgp.ac.in",
+      insta: ""
+    }
+  },
+  {
+    id: 5,
+    name: "Piyush Raj",
+    role: "Content",
+    image: piyush,
+    social: {
+      linkedin: "https://www.linkedin.com/in/piyush-raj-410879366?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      email: "rpiyush410@gmail.com",
+      insta: ""
+    }
+  },
+  {
+    id: 6,
+    name: "Debjyoti",
+    role: "Video editing",
+    image: debjyoti,
+    social: {
+      linkedin: "https://www.linkedin.com/in/debjyoti-shil-aa6a14287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      email: "debjyotishil03@gmail.com",
+      insta: ""
+    }
+  },
+  {
+    id: 7,
+    name: "Ashish Sagar",
+    role: "Video editing",
+    image: ashish,
+    social: {
+      linkedin: "https://www.linkedin.com/in/ashish-sagar-731ba1327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      email: "ashishsagar7962@gmail.com",
+      insta: ""
     }
   }
 ];
