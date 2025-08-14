@@ -1,0 +1,178 @@
+/* === Events Section === */
+.events {
+    position: relative;
+}
+
+.events-slider {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding-bottom: 2rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.events-slider::-webkit-scrollbar {
+    height: 8px;
+}
+
+.events-slider::-webkit-scrollbar-track {
+    background: var(--light-gray);
+    border-radius: 10px;
+}
+
+.events-slider::-webkit-scrollbar-thumb {
+    background-color: var(--teal);
+    border-radius: 10px;
+}
+
+.event-card {
+    min-width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.event-image {
+    height: 300px;
+    overflow: hidden;
+}
+
+.event-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.event-card:hover .event-image img {
+    transform: scale(1.1);
+}
+
+.event-date {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: var(--coral);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.event-content {
+    padding: 1.5rem;
+}
+
+.event-content h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.event-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.event-meta i {
+    margin-right: 5px;
+    color: var(--teal);
+}
+
+/* === Opportunities Section === */
+.opportunities {
+    background-color: var(--teal);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.opportunities::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.opportunities::after {
+    content: '';
+    position: absolute;
+    bottom: -150px;
+    right: -150px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.opportunities h2 {
+    color: white;
+}
+
+.opportunities h2::after {
+    background-color: var(--coral);
+}
+
+.opportunities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.opportunity-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.opportunity-card:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-10px);
+}
+
+.opportunity-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--coral);
+}
+
+.opportunity-card h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.opportunity-card p {
+    margin-bottom: 1.5rem;
+}
+
+.opportunity-btn {
+    background-color: white;
+    color: var(--teal);
+}
+
+.opportunity-btn:hover {
+    background-color: var(--coral);
+    color: white;
+}

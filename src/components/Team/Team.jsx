@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { teamMembers } from '../TeamData';
+import './Team.css';
+import { teamMembers } from '../../TeamData';
 
 const Team = () => {
     const [activeTab, setActiveTab] = useState('3rd');

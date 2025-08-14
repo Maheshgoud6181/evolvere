@@ -1,5 +1,4 @@
-import "../App.css"
-
+import "./Form.css"
 
 const Form = () => {
 
@@ -49,20 +48,20 @@ const Form = () => {
                         </div>
                         <div className="contact-form">
                             <form>
-                                <div class="form-group">
-                                    <label for="name">Your Name</label>
+                                <div className="form-group">
+                                    <label htmlFor="name">Your Name</label>
                                     <input type="text" id="name" required />
                                 </div>
-                                <div class="form-group">
-                                    <label for="email">Email Address</label>
+                                <div className="form-group">
+                                    <label htmlFor="email">Email Address</label>
                                     <input type="email" id="email" required />
                                 </div>
-                                <div class="form-group">
-                                    <label for="subject">Subject</label>
+                                <div className="form-group">
+                                    <label htmlFor="subject">Subject</label>
                                     <input type="text" id="subject" required />
                                 </div>
-                                <div class="form-group">
-                                    <label for="message">Message</label>
+                                <div className="form-group">
+                                    <label htmlFor="message">Message</label>
                                     <textarea id="message" required></textarea>
                                 </div>
                                 <button type="submit" className="btn">Send Message</button>
