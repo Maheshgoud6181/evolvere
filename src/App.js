@@ -6,10 +6,11 @@ import Events from './components/Events'
 import Footer from './components/Footer'
 import Form from './components/Form'
 import Team from './components/Team'
+import Faculty from './components/Faculty'
 
 import './App.css'
+import './styles/global.css'
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Faculty from './components/Faculty'
 
 const App = () => (
   <BrowserRouter>

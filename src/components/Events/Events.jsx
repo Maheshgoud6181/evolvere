@@ -1,10 +1,11 @@
 import React from 'react';
+import './Events.css';
 
 // Direct image imports without index.js
-import snapit from '../images/snapit.jpg';
-import biocosmos from '../images/biocosmos.jpg';
-import prions from '../images/prions.jpg';
-import teachersday from '../images/teachersday.jpg';
+import snapit from '../../images/snapit.jpg';
+import biocosmos from '../../images/biocosmos.jpg';
+import prions from '../../images/prions.jpg';
+import teachersday from '../../images/teachersday.jpg';
 
 const Events = () => {
     return (
@@ -20,7 +21,7 @@ const Events = () => {
                                 <img src={snapit} alt="CRISPR Workshop" />
                                 <div className="event-date">AUG 15</div>
                             </div>
-                            <div className="eve nt-content">
+                            <div className="event-content">
                                 <h3>Snap It</h3>
                                 <div className="event-meta">
                                     <span><i className="far fa-calendar-alt"></i> August 15, 2023</span>
@@ -28,7 +29,7 @@ const Events = () => {
                                 </div>
                                 <p>
                                     Evolvere organizes cultural events like SnapIt and departmental functions 
-                                    including Teachers’ Day and farewells, fostering inclusivity and inter-batch 
+                                    including Teachers' Day and farewells, fostering inclusivity and inter-batch 
                                     bonding in the department.
                                 </p>
                                 <a href="/" className="btn btn-outline">View Photos</a>
@@ -48,7 +49,7 @@ const Events = () => {
                                     <span><i className="fas fa-users"></i> 120 attendees</span>
                                 </div>
                                 <p>
-                                    Biocosmos, the department’s magazine, features student articles, research, 
+                                    Biocosmos, the department's magazine, features student articles, research, 
                                     interviews, and art, offering a platform for academic and creative expression 
                                     within the Biotech community.
                                 </p>

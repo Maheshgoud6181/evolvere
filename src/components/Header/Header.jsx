@@ -1,6 +1,6 @@
-import logoEvolvere from '../images/logoevolvere.png';
-
-import depart from '../images/depart.png';
+import './Header.css';
+import logoEvolvere from '../../images/logoevolvere.png';
+import depart from '../../images/depart.png';
 
 const Header = () => {
 
@@ -29,7 +29,7 @@ const Header = () => {
                     <div className="container">
                         <div className="hero-content">
                             <h1>Evolvere | Biotech Society of NIT DGP</h1>
-                            <p>Join our society to explore biotech in creative, collaborative ways — from managing events and crafting content to designing graphics, developing the web, or curating research . Be part of the vibrant culture on campus.</p>
+                            <p>Join our society to explore biotech in creative, collaborative ways — from managing events and crafting content to designing graphics, developing the web, or curating research . Be part of the vibrant culture on campus.</p>
                             <div className="hero-btns">
                                 <a href="#about" class="btn">Learn More</a>
                                 <a href="#contact" class="btn btn-outline">Join Us</a>
