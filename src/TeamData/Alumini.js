@@ -5,15 +5,15 @@ import susmit from '../images/susmit.jpg';
 import sagnik from '../images/sagnik.jpg';
 import debarpan from '../images/debarpan.jpg';
 import aniruddha from '../images/aniruddha.jpg';
+import alok from '../images/alok.jpg';
+import nikhil from '../images/nikhil.jpg';
+import subhajeet from '../images/subhajeet.jpg';
 
 
 
-// import bishal from '../images/team/bishal.jpg';
-// import shouro from '../images/team/shouro.jpg';
 // import sudarshan from '../images/team/sudarshan.jpg';
 // import sanjukta from '../images/team/sanjukta.jpg';
-// import nikhil from '../images/team/nikhil.jpg';
-// import subhajeet from '../images/team/subhajeet.jpg';
+// import bishal from '../images/team/bishal.jpg';
 
 
 
@@ -77,7 +77,7 @@ export const Alumini = [
     id: 36,
     name: "Shouro Aalok",
     role: "Treasurer & Sponsor",
-    image: "",
+    image: alok,
     social: {
       linkedin: "",
       email: "",
@@ -95,17 +95,17 @@ export const Alumini = [
       insta: ""
     }
   },
-  {
-    id: 38,
-    name: "Sanjukta Maity",
-    role: "Alumni Outreach",
-    image: "",
-    social: {
-      linkedin: "",
-      email: "",
-      insta: ""
-    }
-  },
+  // {
+  //   id: 38,
+  //   name: "Sanjukta Maity",
+  //   role: "Alumni Outreach",
+  //   image: "",
+  //   social: {
+  //     linkedin: "",
+  //     email: "",
+  //     insta: ""
+  //   }
+  // },
   {
     id: 39,
     name: "Aniruddha Dey",
@@ -121,24 +121,24 @@ export const Alumini = [
     id: 40,
     name: "Nikhil Singh",
     role: "Senior Coordinator",
-    image: "",
+    image: nikhil,
     social: {
       linkedin: "",
       email: "",
       insta: ""
     }
   },
-  {
-    id: 41,
-    name: "Sagnik Kuvali",
-    role: "Senior Coordinator",
-    image: "",
-    social: {
-      linkedin: "",
-      email: "",
-      insta: ""
-    }
-  },
+  // {
+  //   id: 41,
+  //   name: "Sagnik Kuvali",
+  //   role: "Senior Coordinator",
+  //   image: "",
+  //   social: {
+  //     linkedin: "",
+  //     email: "",
+  //     insta: ""
+  //   }
+  // },
   {
     id: 42,
     name: "Debarpan",
@@ -154,7 +154,7 @@ export const Alumini = [
     id: 43,
     name: "Subhajeet",
     role: "Senior Coordinator",
-    image: "",
+    image: subhajeet,
     social: {
       linkedin: "",
       email: "",

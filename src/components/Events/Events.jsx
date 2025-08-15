@@ -114,7 +114,7 @@ const Events = () => {
                                 <i className="fas fa-microscope"></i>
                             </div>
                             <h3>Undergraduate Research</h3>
-                            <p>
+                            <p className='para'>
                                 Work alongside faculty on ongoing research projects with potential 
                                 for publication and conference presentations.
                             </p>
@@ -138,10 +138,9 @@ const Events = () => {
                             <div className="opportunity-icon">
                                 <i className="fas fa-briefcase"></i>
                             </div>
-                            <h3>Internship Program</h3>
-                            <p>
-                                Exclusive internship opportunities with our partner biotech companies 
-                                and research institutions.
+                            <h3>Alumni & Senior Mentorship</h3>
+                            <p className='para'>
+                                Connect with alumni and senior members for guidance on academics, career planning, and skill development.
                             </p>
                             <a href="/" className="btn opportunity-btn">Learn More</a>
                         </div>

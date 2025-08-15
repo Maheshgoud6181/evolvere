@@ -12,7 +12,9 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
+.heading{
+    font-size: medium;
+}
 .faculty-card {
     background-color: white;
     border-radius: 15px;
@@ -22,6 +24,7 @@
     display: flex;
     flex-direction: column;
     width: 300px;
+    height: 530px;
 }
 
 .faculty-card:hover {

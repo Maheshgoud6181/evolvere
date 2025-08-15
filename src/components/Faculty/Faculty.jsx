@@ -1,4 +1,5 @@
 import "./Faculty.css"
+import ssm1 from "../../images/ssm1.png"
 
 const Faculty = () => {
 
@@ -13,35 +14,35 @@ const Faculty = () => {
                                 <img src="https://nitdgp.ac.in/uploads/630bd9620220a19ec23c1ce61af1dc14.jpeg" alt="Faculty Advisor" />
                             </div>
                             <div className="faculty-content">
-                                <h3>Dr. Amita Barik</h3>
+                                <h3 className="heading">Dr. Amita Barik</h3>
                                 <span className="faculty-department">Department of BioTechnology</span>
                                 <div className="faculty-expertise">
                                     <p>Joined the Institute in 2019</p>
-                                    <div className="expertise-tags">
+                                    {/* <div className="expertise-tags">
                                         <span className="expertise-tag">Gene Therapy</span>
                                         <span className="expertise-tag">Virology</span>
                                         <span className="expertise-tag">CRISPR</span>
-                                    </div>
+                                    </div> */}
                                 </div>
-                                <a href="/" className="btn btn-outline">View Profile</a>
+                                <a href="https://nitdgp.ac.in/department/biotechnology/faculty-2/amita-barik" className="btn btn-outline">View Profile</a>
                             </div>
                         </div>
                         <div className="faculty-card">
                             <div className="faculty-image">
-                                <img src="https://nitdgp.ac.in/uploads/apurba_dey.jpg" alt="Faculty Advisor" />
+                                <img src={ssm1} alt="Faculty Advisor" />
                             </div>
                             <div className="faculty-content">
-                                <h3>Dr. Apurba Dey</h3>
+                                <h3 className="heading">Dr.Sudit Sekhar Mukhopadhyay</h3>
                                 <span className="faculty-department">Department of Bioengineering</span>
                                 <div className="faculty-expertise">
-                                    <p>Joined the Institute in 2008</p>
-                                    <div className="expertise-tags">
+                                    <p>Joined the Institute in 2010</p>
+                                    {/* <div className="expertise-tags">
                                         <span className="expertise-tag">Tissue Engineering</span>
                                         <span className="expertise-tag">Biomaterials</span>
                                         <span className="expertise-tag">3D Bioprinting</span>
-                                    </div>
+                                    </div> */}
                                 </div>
-                                <a href="/" className="btn btn-outline">View Profile</a>
+                                <a href="https://nitdgp.ac.in/department/biotechnology/faculty-2/sudit-sekhar-mukhopadhyay" className="btn btn-outline">View Profile</a>
                             </div>
                         </div>
 

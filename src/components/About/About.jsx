@@ -20,12 +20,12 @@ const About = () => {
                                     <div className="stat-label">Active Members</div>
                                 </div>
                                 <div className="stat-item">
-                                    <div className="stat-number">12</div>
-                                    <div className="stat-label">Research Projects</div>
+                                    <div className="stat-number">6+</div>
+                                    <div className="stat-label">Events Conducted</div>
                                 </div>
                                 <div className="stat-item">
-                                    <div className="stat-number">8</div>
-                                    <div className="stat-label">Industry Partners</div>
+                                    <div className="stat-number">25+</div>
+                                    <div className="stat-label">Alumni Mentors</div>
                                 </div>
                             </div>
                         </div>
@@ -44,8 +44,8 @@ const About = () => {
                             <div className="service-icon">
                                 <i className="fas fa-flask"></i>
                             </div>
-                            <h3>Research Projects</h3>
-                            <p>Collaborate on cutting-edge biotech research with faculty guidance. Current projects include CRISPR applications and synthetic biology.</p>
+                            <h3>Society Events</h3>
+                            <p>Evolvere conducts cultural and departmental events such as SnapIt, Teachers’ Day, and farewell celebrations, fostering inclusivity, collaboration, and strong inter-batch connections within the department.</p>
                         </div>
                         {/* <div className="service-card">
                     <div className="service-icon">

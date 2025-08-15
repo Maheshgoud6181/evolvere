@@ -11,6 +11,9 @@
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
 }
+.para{
+    color: white;
+}
 
 .events-slider::-webkit-scrollbar {
     height: 8px;
