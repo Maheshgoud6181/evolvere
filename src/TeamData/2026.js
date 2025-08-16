@@ -1,63 +1,40 @@
 // src/teamData/2026.js
+import dummy from "../images/dummy.png"
+
 export const batch2026 = [
-  {
-    id: 4,
-    name: "David Kim",
-    role: "President",
-
-    image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+  
+    {
+    id: 1,
+    name: "To Be Announced",
+    role: "Incoming Member",
+    image: dummy, // go two steps up if your image is stored there
     social: {
-      linkedin: "https://linkedin.com/in/davidkim",
-      email: "david.kim@university.edu",
-      insta: "https://instagram.com/davidkim"
+      linkedin: "#",
+      email: "pending@university.edu",
+      insta: "#"
     }
   },
   {
-    id: 5,
-    name: "Alex Rodriguez",
-    role: "Vice President",
-
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    id: 2,
+    name: "To Be Announced",
+    role: "Incoming Member",
+    image: dummy,
     social: {
-      linkedin: "https://linkedin.com/in/alexrodriguez",
-      email: "alex.rodriguez@university.edu",
-      insta: "https://instagram.com/alexrodriguez"
+      linkedin: "#",
+      email: "pending@university.edu",
+      insta: "#"
     }
   },
   {
-    id: 6,
-    name: "Emma ",
-    role: "General Secretary",
-
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+    id: 3,
+    name: "To Be Announced",
+    role: "Incoming Member",
+    image:dummy,
     social: {
-      linkedin: "https://linkedin.com/in/emmathompson",
-      email: "emma.thompson@university.edu",
-      insta: "https://instagram.com/emmathompson"
-    }
-  },
-  {
-    id: 16,
-    name: "Emma ",
-    role: "General Secretary",
-
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
-    social: {
-      linkedin: "https://linkedin.com/in/emmathompson",
-      email: "emma.thompson@university.edu",
-      insta: "https://instagram.com/emmathompson"
-    }
-  },
-  {
-    id: 66,
-    name: "Emma ",
-    role: "General Secretary",
-
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
-    social: {
-      linkedin: "https://linkedin.com/in/emmathompson",
-      email: "emma.thompson@university.edu",
-      insta: "https://instagram.com/emmathompson"
+      linkedin: "#",
+      email: "pending@university.edu",
+      insta: "#"
     }
   }
-];
+  
+  ];  

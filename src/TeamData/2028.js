@@ -1,5 +1,6 @@
 // src/teamData/2025.js
 import dummy from "../images/dummy.png"
+
 export const batch2028 = [
   {
   id: 1,
