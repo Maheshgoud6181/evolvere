@@ -1,4 +1,5 @@
 import "./About.css"
+import video from "../../images/evolvere.mp4"
 
 const About = () => {
 
@@ -12,7 +13,7 @@ const About = () => {
                         <div className="about-text">
                             <h3>Official Biotech Society of NIT DGP</h3>
                             <p>Evolvere, the Biotechnology club of NIT Durgapur, was founded in 2018 to foster innovation and bridge academia with the biotech industry. It provides a platform for students to explore ideas, build networks, and engage with the latest developments in the field.</p>
-                            <p>The club hosts counseling sessions, workshops, magazine publications, and scientific photography contests—empowering students to align creativity with industry needs and societal impact.</p>
+                            {/* <p>The club hosts counseling sessions, workshops, magazine publications, and scientific photography contests—empowering students to align creativity with industry needs and societal impact.</p> */}
 
                             <div className="stats">
                                 <div className="stat-item">
@@ -21,7 +22,7 @@ const About = () => {
                                 </div>
                                 <div className="stat-item">
                                     <div className="stat-number">6+</div>
-                                    <div className="stat-label">Events Conducted</div>
+                                    <div className="stat-label">Events </div>
                                 </div>
                                 <div className="stat-item">
                                     <div className="stat-number">25+</div>
@@ -29,12 +30,23 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="about-image">
+                        {/* <div className="about-image">
                             <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Students working in lab" />
-                        </div>
+                        </div> */}
+                        <div className="about-video">
+  <video autoPlay loop muted playsInline>
+    <source src={video} type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
                     </div>
                 </div>
             </section>
+
+
+           
+
 
             <section className="services" id="what-we-do">
                 <div className="container">
