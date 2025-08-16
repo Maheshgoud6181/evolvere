@@ -27,7 +27,7 @@ footer {
     left: 0;
     width: 40px;
     height: 3px;
-    background-color: var(--purple);
+    background-color: var(--coral);
 }
 
 .footer-col p {
@@ -54,7 +54,7 @@ footer {
 
 .footer-links a:hover {
     opacity: 1;
-    color: var(--purple);
+    color: var(--coral);
     padding-left: 5px;
 }
 
@@ -89,7 +89,7 @@ footer {
 }
 
 .social-links a:hover {
-    background-color: var(--purple);
+    background-color: var(--coral);
     transform: translateY(-3px);
 }
 
@@ -106,6 +106,6 @@ footer {
 
 .footer-head {
     font-weight: bold;
-    color: var(--purple);
+    color: var(--coral);
     margin-bottom: 0.5rem;
 }

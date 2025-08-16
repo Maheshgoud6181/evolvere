@@ -3,11 +3,12 @@ import { useState, useEffect } from 'react'
 
 import Header from './components/Header'
 import About from './components/About'
-import Events from './components/Events'
+import EventList from './components/EventList'
 import Footer from './components/Footer'
 import Form from './components/Form'
 import Team from './components/Team'
 import Faculty from './components/Faculty'
+import Gallery from './components/Gallery'
 import Loader from './components/Loader/loader'   // ✅ import Loader component
 
 import './App.css'
@@ -34,7 +35,8 @@ const App = () => {
     <BrowserRouter>
       <Header />
       <About />
-      <Events />
+      <EventList />
+      <Gallery />
       <Faculty />
       <Team />
       <Form />

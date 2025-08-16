@@ -34,7 +34,7 @@
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background-color: var(--purple);
+    background-color: var(--coral);
     border-radius: 2px;
 }
 
@@ -149,7 +149,7 @@
 }
 
 .member-social a:hover {
-    background-color: var(--purple);
+    background-color: var(--coral);
     color: white;
 }
 
@@ -167,7 +167,7 @@
 }
 
 .member-role {
-    color: var(--purple);
+    color: var(--coral);
     font-weight: 600;
     margin-bottom: 1rem;
     display: block;

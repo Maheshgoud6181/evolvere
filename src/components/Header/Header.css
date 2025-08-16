@@ -30,7 +30,7 @@ nav.scrolled {
 }
 
 .logo span {
-    color: var(--purple);
+    color: var(--coral);
 }
 
 .logo i {
@@ -59,7 +59,7 @@ nav.scrolled {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--purple);
+    background-color: var(--coral);
     transition: width 0.3s ease;
 }
 

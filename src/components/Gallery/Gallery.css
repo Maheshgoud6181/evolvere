@@ -1,0 +1,325 @@
+:root {
+    --teal: #2c7a7b;
+    --coral: #ff6b6b;
+}
+
+/* === Gallery Section === */
+.gallery {
+    background-color: var(--teal);
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.gallery::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.gallery::after {
+    content: '';
+    position: absolute;
+    bottom: -150px;
+    right: -150px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.gallery h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.gallery h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: var(--coral);
+}
+
+/* Gallery Container */
+.gallery-container {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 1;
+}
+
+/* Gallery Slider */
+.gallery-slider {
+    display: flex;
+    animation: autoRotate 15s infinite;
+    width: 500%; /* 5 images */
+    transition: transform 0.5s ease;
+}
+
+@keyframes autoRotate {
+    0%, 18% { transform: translateX(0%); }
+    20%, 38% { transform: translateX(-20%); }
+    40%, 58% { transform: translateX(-40%); }
+    60%, 78% { transform: translateX(-60%); }
+    80%, 98% { transform: translateX(-80%); }
+    100% { transform: translateX(0%); }
+}
+
+/* Gallery Image */
+.gallery-image {
+    width: 20%; /* Each image takes 20% of the slider width */
+    height: 500px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.gallery-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Image Overlay */
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    color: white;
+    padding: 30px 25px 25px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover .image-overlay {
+    transform: translateY(0);
+}
+
+.image-overlay h3 {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.image-overlay p {
+    font-size: 0.95rem;
+    opacity: 0.9;
+    line-height: 1.4;
+    margin: 0;
+}
+
+/* Gallery Indicators */
+.gallery-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.indicator.active {
+    background-color: var(--coral);
+    border-color: white;
+    transform: scale(1.2);
+}
+
+.indicator:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Pause on Hover */
+.gallery-container:hover .gallery-slider {
+    animation-play-state: paused;
+}
+
+/* Navigation Arrows */
+.gallery-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-nav:hover {
+    background-color: var(--coral);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.gallery-nav:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.3);
+}
+
+.gallery-nav.prev {
+    left: 20px;
+}
+
+.gallery-nav.next {
+    right: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gallery {
+        padding: 60px 0;
+    }
+    
+    .gallery h2 {
+        font-size: 2rem;
+    }
+    
+    .gallery-image {
+        height: 400px;
+    }
+    
+    .gallery-nav {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    
+    .gallery-nav.prev {
+        left: 10px;
+    }
+    
+    .gallery-nav.next {
+        right: 10px;
+    }
+    
+    .image-overlay {
+        padding: 20px 15px 15px;
+    }
+    
+    .image-overlay h3 {
+        font-size: 1.2rem;
+    }
+    
+    .image-overlay p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .gallery h2 {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    
+    .gallery-image {
+        height: 300px;
+    }
+    
+    .gallery-nav {
+        width: 35px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+    
+    .gallery-nav.prev {
+        left: 5px;
+    }
+    
+    .gallery-nav.next {
+        right: 5px;
+    }
+    
+    .image-overlay {
+        padding: 15px 10px 10px;
+    }
+    
+    .image-overlay h3 {
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+    
+    .image-overlay p {
+        font-size: 0.85rem;
+    }
+    
+    .gallery-indicators {
+        gap: 8px;
+        margin-top: 20px;
+    }
+    
+    .indicator {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+/* Accessibility Improvements */
+.gallery-nav:focus-visible {
+    outline: 2px solid var(--coral);
+    outline-offset: 2px;
+}
+
+.indicator:focus-visible {
+    outline: 2px solid var(--coral);
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .gallery-slider {
+        animation: none;
+    }
+    
+    .indicator,
+    .gallery-nav,
+    .image-overlay {
+        transition: none;
+    }
+}
