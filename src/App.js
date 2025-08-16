@@ -35,7 +35,8 @@ const App = () => {
     <BrowserRouter>
       <Header />
       <About />
-      <Events />
+      <EventList />
+      <Gallery />
       <Faculty />
       <Team />
       <Form />
