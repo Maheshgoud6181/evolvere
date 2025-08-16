@@ -32,7 +32,7 @@ const Header = () => {
                             <p>Join our society to explore biotech in creative, collaborative ways — from managing events and crafting content to designing graphics, developing the web, or curating research . Be part of the vibrant culture on campus.</p>
                             <div className="hero-btns">
                                 <a href="#about" class="btn">Learn More</a>
-                                <a href="#contact" class="btn btn-outline">Join Us</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPQHSsEDwCxsVByhGdKvGaJdDXQNxn9Vd1iReQ3F_stw8KTw/viewform?usp=dialog" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Join Us</a>
                             </div>
                         </div>
                     </div>
