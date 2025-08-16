@@ -1,0 +1,84 @@
+/* === Opportunities Section === */
+.opportunities {
+    background-color: var(--teal);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.opportunities::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.opportunities::after {
+    content: '';
+    position: absolute;
+    bottom: -150px;
+    right: -150px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.opportunities h2 {
+    color: white;
+}
+
+.opportunities h2::after {
+    background-color: var(--purple);
+}
+
+.opportunities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.opportunity-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.opportunity-card:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-10px);
+}
+
+.opportunity-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--purple);
+}
+
+.opportunity-card h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.opportunity-card p {
+    margin-bottom: 1.5rem;
+}
+
+.opportunity-btn {
+    background-color: white;
+    color: var(--teal);
+}
+
+.opportunity-btn:hover {
+    background-color: var(--purple);
+    color: white;
+}
