@@ -1,7 +1,7 @@
 /* === Global Styles === */
 :root {
     --teal: #006D77;
-    --coral: #E29578;
+    --purple: #7B5AC2;
     --mint: #83C5BE;
     --off-white: #EDF6F9;
     --charcoal: #1A1A1A;
@@ -55,7 +55,7 @@ h2::after {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background-color: var(--coral);
+    background-color: var(--purple);
     border-radius: 2px;
 }
 
@@ -84,8 +84,8 @@ p {
 }
 
 .btn:hover {
-    background-color: var(--coral);
-    border-color: var(--coral);
+    background-color: var(--purple);
+    border-color: var(--purple);
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(0, 109, 119, 0.2);
 }
@@ -96,7 +96,7 @@ p {
 }
 
 .btn-outline:hover {
-    background-color: var(--coral);
+    background-color: var(--purple);
     color: white;
 }
 

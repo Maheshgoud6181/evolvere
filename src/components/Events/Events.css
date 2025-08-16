@@ -65,7 +65,7 @@
     position: absolute;
     top: 1rem;
     right: 1rem;
-    background-color: var(--coral);
+    background-color: var(--purple);
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 5px;
@@ -130,7 +130,7 @@
 }
 
 .opportunities h2::after {
-    background-color: var(--coral);
+    background-color: var(--purple);
 }
 
 .opportunities-grid {
@@ -158,7 +158,7 @@
 .opportunity-icon {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    color: var(--coral);
+    color: var(--purple);
 }
 
 .opportunity-card h3 {
@@ -176,6 +176,6 @@
 }
 
 .opportunity-btn:hover {
-    background-color: var(--coral);
+    background-color: var(--purple);
     color: white;
 }
