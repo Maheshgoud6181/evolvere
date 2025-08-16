@@ -64,7 +64,7 @@
     background-color: var(--charcoal);
     color: white;
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(44, 62, 80, 0.2);
+    box-shadow: 0 20px 25px rgba(44, 62, 80, 0.3);
 }
 
 .team-grid {

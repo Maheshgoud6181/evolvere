@@ -14,10 +14,9 @@ const Footer = () => {
                         <div className="footer-col">
                             <h3>Socials</h3>
                             <ul className="footer-links">
-                                <li><a href="https://www.facebook.com/evolvereclub" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i> Facebook</a></li>
-                                <li><a href="https://www.twitter.com/evolvereclub" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i> Twitter</a></li>
-                                <li><a href="https://www.instagram.com/evolvereclub" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i> Instagram</a></li>
-                                <li><a href="https://www.linkedin.com/company/evolvereclub" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                                <li><a href="https://www.facebook.com/share/172RcZgYyK/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i> Facebook</a></li>
+                                <li><a href="https://www.instagram.com/evolverenitdgp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i> Instagram</a></li>
+                                <li><a href="https://www.linkedin.com/company/evolvere-nit-durgapur/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i> LinkedIn</a></li>
                             </ul>
                         </div>
                         <div className="footer-col">
