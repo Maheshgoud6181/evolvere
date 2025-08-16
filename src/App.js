@@ -1,4 +1,5 @@
-import {BrowserRouter} from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 
 import Header from './components/Header'
 import About from './components/About'
@@ -8,22 +9,39 @@ import Form from './components/Form'
 import Team from './components/Team'
 import Faculty from './components/Faculty'
 import Gallery from './components/Gallery'
+import Loader from './components/Loader/loader'   // ✅ import Loader component
 
 import './App.css'
 import './styles/global.css'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-const App = () => (
-  <BrowserRouter>
-  <Header/>
-  <About />
-  <EventList />
-  <Gallery />
-  <Faculty/>
-  <Team />
-  <Form />
-  <Footer />
-  </BrowserRouter>
-)
+const App = () => {
+  const [loading, setLoading] = useState(true);
 
-export default App
+  useEffect(() => {
+    // simulate loading (2 seconds) or replace with API/data fetch
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;   // ✅ show loader while loading
+  }
+
+  return (
+    <BrowserRouter>
+      <Header />
+      <About />
+      <Events />
+      <Faculty />
+      <Team />
+      <Form />
+      <Footer />
+    </BrowserRouter>
+  );
+};
+
+export default App;
