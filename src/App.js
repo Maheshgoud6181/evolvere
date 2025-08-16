@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 import Form from './components/Form'
 import Team from './components/Team'
 import Faculty from './components/Faculty'
-import Opportunities from './components/Opportunities'
+import Gallery from './components/Gallery'
 
 import './App.css'
 import './styles/global.css'
@@ -18,7 +18,7 @@ const App = () => (
   <Header/>
   <About />
   <EventList />
-  <Opportunities />
+  <Gallery />
   <Faculty/>
   <Team />
   <Form />
