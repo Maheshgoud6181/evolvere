@@ -10,7 +10,7 @@ import ayush from '../images/ayush.png';
 import sham from '../images/sham.png';
 import arnab from '../images/arnab.png';
 import piuss from '../images/piuss.png';
-import mothi from '../images/mothi.png';
+import mothi from '../images/mothi.jpg';
 import akilesh from '../images/akilesh.png';
 import sangam from '../images/sangam.png';
 import mahesh from '../images/mahesh.jpg';
@@ -190,7 +190,7 @@ export const batch2027 = [
   {
     id: 16,
     name: "Akhilesh",
-    role: "Event Management",
+    role: "Graphic Designer",
     image: akilesh,
     social: {
       linkedin: "https://www.linkedin.com/in/rishabh000",

@@ -11,9 +11,12 @@ const Header = () => {
     return (
         <>
             <nav id="navbar">
-                <a href="/" className="logo">
-                    <img src={logoEvolvere} alt="Evolvere Logo" className="logoevolvere" />
-                </a>
+                <div className='logo-container'>
+                    <a href="/" className="logo">
+                        <img src={logoEvolvere} alt="Evolvere Logo" className="logoevolvere" />
+                    </a>
+                    
+                </div>
 
                 <button
                     className="mobile-menu-btn"

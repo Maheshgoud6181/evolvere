@@ -23,11 +23,11 @@ const EventList = () => (
               <span><i className="fas fa-users"></i> 45 attendees</span>
             </div>
             <p>
-              Evolvere organizes cultural events like SnapIt and departmental functions 
-              including Teachers' Day and farewells, fostering inclusivity and inter-batch 
+              Evolvere organizes cultural events like SnapIt and departmental functions
+              including Teachers' Day and farewells, fostering inclusivity and inter-batch
               bonding in the department.
             </p>
-            <a href="/" className="btn btn-outline">View Photos</a>
+            {/* <a href="/" className="btn btn-outline">View Photos</a> */}
           </div>
         </div>
         {/* Biocosmos */}
@@ -43,11 +43,11 @@ const EventList = () => (
               <span><i className="fas fa-users"></i> 120 attendees</span>
             </div>
             <p>
-              Biocosmos, the department's magazine, features student articles, research, 
-              interviews, and art, offering a platform for academic and creative expression 
+              Biocosmos, the department's magazine, features student articles, research,
+              interviews, and art, offering a platform for academic and creative expression
               within the Biotech community.
             </p>
-            <a href="/" className="btn btn-outline">View Photos</a>
+            {/* <a href="/" className="btn btn-outline">View Photos</a> */}
           </div>
         </div>
         {/* Prions */}
@@ -63,11 +63,11 @@ const EventList = () => (
               <span><i className="fas fa-users"></i> 25 attendees</span>
             </div>
             <p>
-              Prions, our annual flagship event, features debates, quizzes, cultural showcases, 
-              and competitions, encouraging collaboration, creativity, and discourse on scientific 
+              Prions, our annual flagship event, features debates, quizzes, cultural showcases,
+              and competitions, encouraging collaboration, creativity, and discourse on scientific
               and societal themes.
             </p>
-            <a href="/" className="btn btn-outline">View Photos</a>
+            {/* <a href="/" className="btn btn-outline">View Photos</a> */}
           </div>
         </div>
         {/* Teachers Day */}
@@ -83,11 +83,11 @@ const EventList = () => (
               <span><i className="fas fa-users"></i> 300+ visitors</span>
             </div>
             <p>
-              Evolvere hosts academic and industry events, including webinars and career 
-              sessions, to keep students updated and guide them through diverse Biotech-related 
+              Evolvere hosts academic and industry events, including webinars and career
+              sessions, to keep students updated and guide them through diverse Biotech-related
               career paths.
             </p>
-            <a href="/" className="btn btn-outline">View Photos</a>
+            {/* <a href="/" className="btn btn-outline">View Photos</a> */}
           </div>
         </div>
       </div>
