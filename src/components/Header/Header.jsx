@@ -1,27 +1,37 @@
 import './Header.css';
-import logoEvolvere from '../../images/logoevolvere.png';
+
+import logoEvolvere from '../../images/logoevolvere1.png';
 import depart from '../../images/depart.png';
+import { useState } from "react";
+
+
 
 const Header = () => {
-
+const [isOpen, setIsOpen] = useState(false);
     return (
         <>
-            <nav id="navbar">
-                <a href="/" className="logo">
-                    <img src={logoEvolvere} alt="Evolvere Logo" className='logoevolvere' />
-                </a>
-                <button className="mobile-menu-btn" id="menuBtn">
-                    <i className="fas fa-bars"></i>
-                </button>
-                <div className="nav-links" id="navLinks">
-                    <a href="#about">About</a>
-                    <a href="#what-we-do">What We Do</a>
-                    <a href="#events">Events</a>
-                    <a href="#gallery">Gallery</a>
-                    <a href="#team">Team</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            </nav>
+           <nav id="navbar">
+  <a href="/" className="logo">
+    <img src={logoEvolvere} alt="Evolvere Logo" className="logoevolvere" />
+  </a>
+
+  <button
+    className="mobile-menu-btn"
+    onClick={() => setIsOpen(!isOpen)}
+  >
+    <i className={isOpen ? "fas fa-times" : "fas fa-bars"}></i>
+  </button>
+
+  <div className={`nav-links ${isOpen ? "active" : ""}`}>
+    <a href="#about" onClick={() => setIsOpen(false)}>About</a>
+    <a href="#what-we-do" onClick={() => setIsOpen(false)}>What We Do</a>
+    <a href="#events" onClick={() => setIsOpen(false)}>Events</a>
+    <a href="#gallery" onClick={() => setIsOpen(false)}>Gallery</a>
+    <a href="#team" onClick={() => setIsOpen(false)}>Team</a>
+    <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
+  </div>
+</nav>
+
             <section className="hero">
                 <div>
 

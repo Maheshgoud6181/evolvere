@@ -22,7 +22,7 @@ const App = () => {
     // simulate loading (2 seconds) or replace with API/data fetch
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 0);
 
     return () => clearTimeout(timer);
   }, []);

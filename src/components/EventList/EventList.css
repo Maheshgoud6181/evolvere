@@ -1,6 +1,9 @@
 /* === Events Section === */
+
+
 .events {
     position: relative;
+    background: linear-gradient(135deg, rgba(237, 246, 249, 0.9) 0%, rgba(131, 197, 190, 0.2) 100%);
 }
 
 .events-slider {

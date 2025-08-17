@@ -1,5 +1,6 @@
 import "./About.css"
-import video from "../../images/evolvere.mp4"
+import evolvereimage from "../../images/evolvereimage.avif"
+// import video from "../../images/evolvere.mp4"
 
 const About = () => {
 
@@ -30,15 +31,15 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="about-image">
-                            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Students working in lab" />
-                        </div> */}
-                        <div className="about-video">
+                        <div className="about-image">
+                            <img src={evolvereimage} alt="Students working in lab" />
+                        </div>
+                        {/* <div className="about-video">
   <video autoPlay loop muted playsInline>
     <source src={video} type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-</div>
+</div> */}
 
                     </div>
                 </div>

@@ -28,10 +28,6 @@ const Gallery = () => {
     {
       src: gallery4,
       alt: "Graduation",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=800&h=500&fit=crop",
-      alt: "Sports",
     }
   ];
 
@@ -81,7 +77,7 @@ const Gallery = () => {
     <section className="dynamic-gallery">
       <div className="gallery-container-wrapper">
         <div className="gallery-title">
-          <h2>Photo Gallery</h2>
+          <h2 className='heading'>Photo Gallery</h2>
           <div className="title-underline"></div>
         </div>
 
