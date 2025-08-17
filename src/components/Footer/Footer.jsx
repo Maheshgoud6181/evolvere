@@ -23,7 +23,7 @@ const Footer = () => {
                             <h3>Student Heads</h3>
                             <ul className="footer-links">
                                 <li className="footer-head">President
-                                    <li><a href="#" target="_blank" rel="noopener noreferrer">Vikrant Jaiswal</a></li>
+                                    <li><a href="https://www.linkedin.com/in/vikrant-ranjan-nitdgp" target="_blank" rel="noopener noreferrer">Vikrant Jaiswal</a></li>
                                 </li>
                                 <li className="footer-head">General-secretary
                                     <li><a href="#" target="_blank" rel="noopener noreferrer">Nirdesh Regmi</a></li>

@@ -7,30 +7,33 @@ import { useState } from "react";
 
 
 const Header = () => {
-const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <>
-           <nav id="navbar">
-  <a href="/" className="logo">
-    <img src={logoEvolvere} alt="Evolvere Logo" className="logoevolvere" />
-  </a>
+            <nav id="navbar">
+                <div className='logo-container'>
+                    <a href="/" className="logo">
+                        <img src={logoEvolvere} alt="Evolvere Logo" className="logoevolvere" />
+                    </a>
+                    
+                </div>
 
-  <button
-    className="mobile-menu-btn"
-    onClick={() => setIsOpen(!isOpen)}
-  >
-    <i className={isOpen ? "fas fa-times" : "fas fa-bars"}></i>
-  </button>
+                <button
+                    className="mobile-menu-btn"
+                    onClick={() => setIsOpen(!isOpen)}
+                >
+                    <i className={isOpen ? "fas fa-times" : "fas fa-bars"}></i>
+                </button>
 
-  <div className={`nav-links ${isOpen ? "active" : ""}`}>
-    <a href="#about" onClick={() => setIsOpen(false)}>About</a>
-    <a href="#what-we-do" onClick={() => setIsOpen(false)}>What We Do</a>
-    <a href="#events" onClick={() => setIsOpen(false)}>Events</a>
-    <a href="#gallery" onClick={() => setIsOpen(false)}>Gallery</a>
-    <a href="#team" onClick={() => setIsOpen(false)}>Team</a>
-    <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
-  </div>
-</nav>
+                <div className={`nav-links ${isOpen ? "active" : ""}`}>
+                    <a href="#about" onClick={() => setIsOpen(false)}>About</a>
+                    <a href="#what-we-do" onClick={() => setIsOpen(false)}>What We Do</a>
+                    <a href="#events" onClick={() => setIsOpen(false)}>Events</a>
+                    <a href="#gallery" onClick={() => setIsOpen(false)}>Gallery</a>
+                    <a href="#team" onClick={() => setIsOpen(false)}>Team</a>
+                    <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
+                </div>
+            </nav>
 
             <section className="hero">
                 <div>

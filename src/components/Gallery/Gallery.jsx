@@ -74,7 +74,7 @@ const Gallery = () => {
   }, []);
 
   return (
-    <section className="dynamic-gallery">
+    <section className="dynamic-gallery" id='gallery'>
       <div className="gallery-container-wrapper">
         <div className="gallery-title">
           <h2 className='heading'>Photo Gallery</h2>

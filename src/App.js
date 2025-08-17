@@ -9,7 +9,7 @@ import Form from './components/Form'
 import Team from './components/Team'
 import Faculty from './components/Faculty'
 import Gallery from './components/Gallery'
-import Loader from './components/Loader/loader'   // ✅ import Loader component
+import Loader from './components/Loader/loader' 
 
 import './App.css'
 import './styles/global.css'
@@ -19,7 +19,6 @@ const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // simulate loading (2 seconds) or replace with API/data fetch
     const timer = setTimeout(() => {
       setLoading(false);
     }, 0);
@@ -28,7 +27,7 @@ const App = () => {
   }, []);
 
   if (loading) {
-    return <Loader />;   // ✅ show loader while loading
+    return <Loader />;   
   }
 
   return (
