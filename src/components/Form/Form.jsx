@@ -27,15 +27,15 @@ const Form = () => {
                                     <a href="mailto:bioinnovators@university.edu">evolvere@nitdgp.ac.in</a>
                                 </div>
                             </div>
-                            {/* <div className="contact-card">
+                            <div className="contact-card">
                                 <div className="contact-icon">
                                     <i className="fas fa-phone-alt"></i>
                                 </div>
                                 <div className="contact-details">
                                     <h3>Phone</h3>
-                                    <a href="tel:+11234567890">(+91) 9390936181</a>
+                                    <a href="tel:">(+91) 939093XXXX</a>
                                 </div>
-                            </div> */}
+                            </div>
                             <div className="contact-card">
                                 <div className="contact-icon">
                                     <i className="far fa-clock"></i>

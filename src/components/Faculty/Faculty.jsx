@@ -19,7 +19,7 @@ const Faculty = () => {
                                 <div className="faculty-expertise">
                                     <p>Joined the Institute in 2019</p>
                                 </div>
-                                <a href="https://nitdgp.ac.in/department/biotechnology/faculty-2/amita-barik" className="btn btn-outline">View Profile</a>
+                                <a href="https://nitdgp.ac.in/department/biotechnology/faculty-2/amita-barik" className="btn btn-outline" target="blank">View Profile</a>
                             </div>
                         </div>
                         <div className="faculty-card">
@@ -32,7 +32,7 @@ const Faculty = () => {
                                 <div className="faculty-expertise">
                                     <p>Joined the Institute in 2010</p>
                                 </div>
-                                <a href="https://nitdgp.ac.in/department/biotechnology/faculty-2/sudit-sekhar-mukhopadhyay" className="btn btn-outline">View Profile</a>
+                                <a href="https://nitdgp.ac.in/department/biotechnology/faculty-2/sudit-sekhar-mukhopadhyay" className="btn btn-outline" target="blank">View Profile</a>
                             </div>
                         </div>
 

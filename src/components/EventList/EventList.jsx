@@ -14,12 +14,12 @@ const EventList = () => (
         <div className="event-card">
           <div className="event-image">
             <img src={snapit} alt="CRISPR Workshop" />
-            <div className="event-date">AUG 15</div>
+            <div className="event-date">April 06</div>
           </div>
           <div className="event-content">
             <h3>Snap It</h3>
             <div className="event-meta">
-              <span><i className="far fa-calendar-alt"></i> August 15, 2023</span>
+              <span><i className="far fa-calendar-alt"></i> April 06, 2024</span>
               <span><i className="fas fa-users"></i> 45 attendees</span>
             </div>
             <p>
@@ -34,13 +34,13 @@ const EventList = () => (
         <div className="event-card">
           <div className="event-image">
             <img src={biocosmos} alt="Biotech Conference" />
-            <div className="event-date">JUL 28</div>
+            <div className="event-date">March 28</div>
           </div>
           <div className="event-content">
             <h3>Biocosmos</h3>
             <div className="event-meta">
-              <span><i className="far fa-calendar-alt"></i> July 28, 2023</span>
-              <span><i className="fas fa-users"></i> 120 attendees</span>
+              <span><i className="far fa-calendar-alt"></i> March 28, 2023</span>
+              <span><i className="fas fa-users"></i> 39 attendees</span>
             </div>
             <p>
               Biocosmos, the department's magazine, features student articles, research,
@@ -54,13 +54,13 @@ const EventList = () => (
         <div className="event-card">
           <div className="event-image">
             <img src={prions} alt="Prions" />
-            <div className="event-date">JUN 10</div>
+            <div className="event-date">March 24</div>
           </div>
           <div className="event-content">
             <h3>Prions</h3>
             <div className="event-meta">
-              <span><i className="far fa-calendar-alt"></i> June 10, 2023</span>
-              <span><i className="fas fa-users"></i> 25 attendees</span>
+              <span><i className="far fa-calendar-alt"></i> March 24, 2023</span>
+              <span><i className="fas fa-users"></i> 94 attendees</span>
             </div>
             <p>
               Prions, our annual flagship event, features debates, quizzes, cultural showcases,
@@ -79,8 +79,8 @@ const EventList = () => (
           <div className="event-content">
             <h3>Teachers Day</h3>
             <div className="event-meta">
-              <span><i className="far fa-calendar-alt"></i> May 5, 2023</span>
-              <span><i className="fas fa-users"></i> 300+ visitors</span>
+              <span><i className="far fa-calendar-alt"></i> Sep 5, 2024</span>
+              <span><i className="fas fa-users"></i> 80+ visitors</span>
             </div>
             <p>
               Evolvere hosts academic and industry events, including webinars and career
