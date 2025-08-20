@@ -19,7 +19,7 @@ import subhajeet from '../images/subhajeet.jpg';
 
 export const Alumini = [
   {
-    id: 31,
+    id: 101,
     name: "Hiya Aidasani",
     role: "President",
     image:hiya,
@@ -30,7 +30,7 @@ export const Alumini = [
     }
   },
   {
-    id: 32,
+    id: 102,
     name: "Saranya Mandal",
     role: "Vice President",
     image: saranya,
@@ -41,7 +41,7 @@ export const Alumini = [
     }
   },
   {
-    id: 33,
+    id: 103,
     name: "Abhishek Kumar",
     role: "General Secretary",
     image: abhishek,
@@ -52,7 +52,7 @@ export const Alumini = [
     }
   },
   {
-    id: 34,
+    id: 104,
     name: "Sudarshan Kumar",
     role: "Creative & Tech Head",
     image: susmit,
@@ -63,7 +63,7 @@ export const Alumini = [
     }
   },
   {
-    id: 35,
+    id: 105,
     name: "Bishal Kumar Yadav",
     role: "Content Head",
     image: sagnik,
@@ -74,7 +74,7 @@ export const Alumini = [
     }
   },
   {
-    id: 36,
+    id: 106,
     name: "Shouro Aalok",
     role: "Treasurer & Sponsor",
     image: alok,
@@ -85,7 +85,7 @@ export const Alumini = [
     }
   },
   {
-    id: 37,
+    id: 107,
     name: "Susmit Ghosh",
     role: "Treasurer & Sponsor",
     image: susmit,
@@ -96,7 +96,7 @@ export const Alumini = [
     }
   },
   // {
-  //   id: 38,
+  //   id: 108,
   //   name: "Sanjukta Maity",
   //   role: "Alumni Outreach",
   //   image: "",
@@ -107,7 +107,7 @@ export const Alumini = [
   //   }
   // },
   {
-    id: 39,
+    id: 109,
     name: "Aniruddha Dey",
     role: "Senior Coordinator",
     image: aniruddha,
@@ -118,7 +118,7 @@ export const Alumini = [
     }
   },
   {
-    id: 40,
+    id: 110,
     name: "Nikhil Singh",
     role: "Senior Coordinator",
     image: nikhil,
@@ -129,7 +129,7 @@ export const Alumini = [
     }
   },
   // {
-  //   id: 41,
+  //   id: 111,
   //   name: "Sagnik Kuvali",
   //   role: "Senior Coordinator",
   //   image: "",
@@ -140,7 +140,7 @@ export const Alumini = [
   //   }
   // },
   {
-    id: 42,
+    id: 112,
     name: "Debarpan",
     role: "Senior Coordinator",
     image: debarpan,
@@ -151,7 +151,7 @@ export const Alumini = [
     }
   },
   {
-    id: 43,
+    id: 113,
     name: "Subhajeet",
     role: "Senior Coordinator",
     image: subhajeet,

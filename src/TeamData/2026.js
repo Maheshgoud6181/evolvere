@@ -4,7 +4,7 @@ import dummy from "../images/dummy.png"
 export const batch2026 = [
   
     {
-    id: 1,
+    id: 21,
     name: "To Be Announced",
     role: "Incoming Member",
     image: dummy, // go two steps up if your image is stored there
@@ -15,7 +15,7 @@ export const batch2026 = [
     }
   },
   {
-    id: 2,
+    id: 22,
     name: "To Be Announced",
     role: "Incoming Member",
     image: dummy,
@@ -26,7 +26,7 @@ export const batch2026 = [
     }
   },
   {
-    id: 3,
+    id: 23,
     name: "To Be Announced",
     role: "Incoming Member",
     image:dummy,

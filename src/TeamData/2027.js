@@ -41,8 +41,8 @@ export const batch2027 = [
       insta: ""
     }
   },
-    {
-    id: 5,
+  {
+    id: 3,
     name: "Shambhabi Gupta",
     role: "Research and Development",
     image: sham,
@@ -53,7 +53,7 @@ export const batch2027 = [
     }
   },
   {
-    id: 6,
+    id: 4,
     name: "Krishnendu Mondal",
     role: "Research and Development",
     image: krishnendu,
@@ -64,7 +64,7 @@ export const batch2027 = [
     }
   },
   {
-    id: 9,
+    id: 5,
     name: "Rishi Das",
     role: "Graphic Designer",
     image: rishi,
@@ -75,7 +75,7 @@ export const batch2027 = [
     }
   },
   {
-    id: 10,
+    id: 6,
     name: "Piyush Raj",
     role: "Content Writing",
     image: piyush,
@@ -86,7 +86,7 @@ export const batch2027 = [
     }
   },
   {
-    id: 11,
+    id: 7,
     name: "Mahesh Goud",
     role: "Web Development",
     image: mahesh,
@@ -97,7 +97,7 @@ export const batch2027 = [
     }
   },
   {
-    id: 12,
+    id: 8,
     name: "Sangam saurav",
     role: "Web Development",
     image: sangam,
@@ -108,7 +108,7 @@ export const batch2027 = [
     }
   },
   {
-    id: 3,
+    id: 9,
     name: "Pius Dutta",
     role: "Graphics Designer",
     image: piuss,
@@ -119,7 +119,7 @@ export const batch2027 = [
     }
   },
   {
-    id: 4,
+    id: 10,
     name: "Arnab Samanta",
     role: "Event Management",
     image: arnab,
@@ -129,9 +129,8 @@ export const batch2027 = [
       insta: ""
     }
   },
-
   {
-    id: 7,
+    id: 11,
     name: "Ayush Kumar",
     role: "Event management",
     image: ayush,
@@ -142,7 +141,7 @@ export const batch2027 = [
     }
   },
   {
-    id: 8,
+    id: 12,
     name: "Ayushi Rajput",
     role: "Research and Development",
     image: ayushi,
@@ -152,7 +151,6 @@ export const batch2027 = [
       insta: ""
     }
   },
-  
   {
     id: 13,
     name: "Banothu Mothilal",
@@ -186,7 +184,6 @@ export const batch2027 = [
       insta: ""
     }
   },
-
   {
     id: 16,
     name: "Akhilesh",
